@@ -19,7 +19,6 @@ a {
   color: #917FB3;
   text-decoration: none;
 }
-
 a:hover {
   color: #86db9f;
   text-decoration: none;
@@ -119,7 +118,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: transparent;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -560,10 +559,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
+  color: #917FB3;
   font-weight: 600;
   font-size: 26px;
 }
-
+.about .content p{
+  color: #917FB3;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -576,6 +578,13 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
+  color: #D09CFA;
+}
+
+.about .content ul b{
+  color: #F3CCFF;
+}
+.about .content ul{
   color: #917FB3;
 }
 
