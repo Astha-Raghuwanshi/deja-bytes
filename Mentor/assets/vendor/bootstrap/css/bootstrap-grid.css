@@ -567,6 +567,7 @@
     width: 41.66666667%;
   }
   .col-md-6 {
+    
     flex: 0 0 auto;
     width: 50%;
   }
@@ -728,8 +729,9 @@
     width: 25%;
   }
   .col-lg-4 {
+
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 90%;
   }
   .col-lg-5 {
     flex: 0 0 auto;

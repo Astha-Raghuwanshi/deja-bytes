@@ -10,9 +10,10 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   font-family: "Open Sans", sans-serif;
-  background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+  background: #000 url(https://cssanimation.rocks/demo/starwars/images/bg.jpg);
 }
 
 a {
@@ -66,6 +67,7 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -145,7 +147,7 @@ h6 {
 }
 
 /**
-* Get Startet Button 
+* Get Startet Button
 */
 .get-started-btn {
   margin-left: 22px;
@@ -175,7 +177,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -288,7 +290,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #37423b;
@@ -810,13 +812,15 @@ section {
   color: #657a6d;
 }
 
+
 /*--------------------------------------------------------------
 # Trainers
 --------------------------------------------------------------*/
 .trainers .member {
   text-align: center;
-  margin-bottom: 20px;
-  background: #fff;
+  margin-bottom: 100px;
+  border-radius: 70px;
+  background: #ffff;
   border: 1px solid #eef0ef;
 }
 
@@ -1582,10 +1586,10 @@ section {
 
 button {
   --c:  #229091; /* the color*/
-  
-  box-shadow: 0 0 0 .1em inset var(--c); 
+
+  box-shadow: 0 0 0 .1em inset var(--c);
   --_g: linear-gradient(var(--c) 0 0) no-repeat;
-  background: 
+  background:
     var(--_g) calc(var(--_p,0%) - 100%) 0%,
     var(--_g) calc(200% - var(--_p,0%)) 0%,
     var(--_g) calc(var(--_p,0%) - 100%) 100%,
@@ -1599,7 +1603,7 @@ button:hover {
   transition: background-position .4s, background-size 0s;
 }
 button:active {
-  box-shadow: 0 0 9e9q inset #0009; 
+  box-shadow: 0 0 9e9q inset #0009;
   background-color: var(--c);
   color: #fff;
 }
@@ -1610,8 +1614,11 @@ button {
   font-size: 1.5rem;
   cursor: pointer;
   padding: .1em .6em;
-  font-weight: bold;  
+  font-weight: bold;
   border: none;
 }
+<<<<<<< HEAD
+=======
 
 /* CSS FOR THE TIMELINE LAYOUT OF SCHEMES */
+>>>>>>> 0dc71d3286156046675ea6f3345f7e1473e7ce0a
