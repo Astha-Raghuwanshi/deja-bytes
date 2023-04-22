@@ -10,6 +10,7 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #000 url(https://cssanimation.rocks/demo/starwars/images/bg.jpg);
@@ -66,6 +67,7 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -810,13 +812,15 @@ section {
   color: #657a6d;
 }
 
+
 /*--------------------------------------------------------------
 # Trainers
 --------------------------------------------------------------*/
 .trainers .member {
   text-align: center;
-  margin-bottom: 20px;
-  background: #fff;
+  margin-bottom: 100px;
+  border-radius: 70px;
+  background: #ffff;
   border: 1px solid #eef0ef;
 }
 
